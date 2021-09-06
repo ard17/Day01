@@ -1,13 +1,16 @@
 const convertToRupiah = (value, currencyType) => {
-    const yen = value * 130.12;
-    const usd = value * 14382.5;
-    const euro = value * 16000;
+    let yen = String(value * 130.12);
+    const usd = String(value * 14382.5);
+    const euro = String(value * 16000);
     
     if(currencyType === "yen"){
+        // currencyType = yen
         return `${value} yen = Rp.${yen}`
     } else if(currencyType === "usd"){
+        // currencyType = usd
         return `${value} dollar = Rp.${usd}`
     } else if(currencyType === "euro"){
+        // currencyType  = euro
         return `${value} euro = Rp.${euro}`
     } else {
         return "no match type currency"
