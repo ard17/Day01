@@ -1,0 +1,9 @@
+{
+  "name": "js-week-01-quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ard17/Day01.git",
+  "author": "ard17 <4rdi17@gmail.com>",
+  "type": "module",
+  "license": "MIT"
+}
