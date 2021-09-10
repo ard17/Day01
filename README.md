@@ -1,1 +1,1 @@
-# Day01
+# JS Fundamental
